@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.env.*
+.venv/
+
+# =========================
+# MySQL / Secrets
+# =========================
+*.cnf
+*.env
+config.py
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Misc / Temp
+# =========================
+.stfolder/
+*.log
+*.tmp
+.cache/
+
+# =========================
+# Ignore compiled SQL dumps (optional)
+# =========================
+*.sql.bak
