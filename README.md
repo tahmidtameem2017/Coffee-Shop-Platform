@@ -2,7 +2,7 @@
 
 Welcome to my personal project: a **C**ommand **L**ine **I**nterface (CLI) application designed to make managing a coffee shop's operations a breeze! From keeping track of loyal customers to brewing up new products and fulfilling orders, this tool is crafted with love (and code) to help streamline your coffee empire. ✨
 
-## ✨ Features - What's Brewing? ✨
+## ✨ Features ✨
 
 Here's what you can currently do with the Coffee Shop CLI:
 *   **👥 Customer Management**:
@@ -37,7 +37,7 @@ Before you can run this amazing CLI, make sure you have these ingredients ready:
 
 1.  **Clone this sweet repository:**
     ```bash
-    git clone <your-repository-url> # Replace with your actual repo URL!
+    gh repo clone tahmidtameem2017/Coffee-Shop-Platform
     cd CODES
     ```
 
