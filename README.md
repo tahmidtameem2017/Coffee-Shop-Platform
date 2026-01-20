@@ -1,8 +1,8 @@
-# ☕ Coffee Shop CLI - Your Daily Brew of Management! ☕
+# ☕ Coffee Shop CLI  ☕
 
 Welcome to my personal project: a **C**ommand **L**ine **I**nterface (CLI) application designed to make managing a coffee shop's operations a breeze! From keeping track of loyal customers to brewing up new products and fulfilling orders, this tool is crafted with love (and code) to help streamline your coffee empire. ✨
 
-## ✨ Features - What's Brewing? ✨
+## ✨ Features ✨
 
 Here's what you can currently do with the Coffee Shop CLI:
 *   **👥 Customer Management**:
@@ -10,11 +10,11 @@ Here's what you can currently do with the Coffee Shop CLI:
     *   Add new coffee lovers to your list! ➕
     *   Say goodbye to customers (but hopefully not too often!). 🗑️
 
-**🔜 Coming Soon (Future Brews!):**
+**🔜 Coming Soon :**
 *   **☕ Product Management**
 *   **📝 Order Management**
 
-## 🛠️ Technologies Used - The Secret Sauce! 🛠️
+## 🛠️ Technologies Used 🛠️
 
 This project is built using a blend of cool Python libraries:
 
@@ -24,7 +24,7 @@ This project is built using a blend of cool Python libraries:
 *   **[PyFiglet](https://github.com/pwaller/pyfiglet)** 🅰️: To generate awesome ASCII art banners, adding a touch of retro charm.
 *   **[mysql-connector-python](https://pypi.org/project/mysql-connector-python/)** 🗄️: For robust interaction with our MySQL database.
 
-## 🚀 Setup and Installation - Let's Get Brewing! 🚀
+## 🚀 Setup and Installation 🚀
 
 ### 📋 Prerequisites
 
@@ -37,7 +37,7 @@ Before you can run this amazing CLI, make sure you have these ingredients ready:
 
 1.  **Clone this sweet repository:**
     ```bash
-    git clone <your-repository-url> # Replace with your actual repo URL!
+    gh repo clone tahmidtameem2017/Coffee-Shop-Platform
     cd CODES
     ```
 
@@ -46,7 +46,7 @@ Before you can run this amazing CLI, make sure you have these ingredients ready:
     pip install -r requirements.txt
     ```
 
-### 🗃️ Database Setup - Preparing Your Coffee Beans! 🫘
+### 🗃️ Database Setup 
 
 1.  **Create a `db.json` file** in the root directory of your project. This file will hold your secret recipe (database connection details!):
 
@@ -96,7 +96,7 @@ Before you can run this amazing CLI, make sure you have these ingredients ready:
     );
     ```
 
-## 🏃‍♀️ Usage - Get Your Coffee Flowing! 🏃‍♂️
+## 🏃‍♀️ Usage 🏃‍♂️
 
 Ready to manage your coffee shop? Just run the `main.py` file:
 
@@ -106,15 +106,14 @@ python main.py
 
 Follow the interactive prompts (thanks, InquirerPy!) to navigate through the CLI and start managing your operations. It's super intuitive! ✨
 
-## 🎬 Demo - See It in Action! 🎥
+## 🎬 Demo  🎥
 
 <!-- Placeholder for image/gif/video demonstrating the CLI in action -->
 <!-- Example: ![CLI Demo](path/to/your/demo.gif) -->
 <!-- Example: <video src="path/to/your/demo.mp4" controls title="CLI Demo"></video> -->
 
-(Don't forget to add your awesome demo here later! It really brings the project to life!)
 
-## 📁 Project Structure - A Peek Behind the Counter 📁
+## 📁 Project Structure  📁
 
 *   `main.py`: The main entry point of the application, handling the CLI menu and user interaction.
 *   `database.py`: Contains functions for interacting with the MySQL database, such as viewing, adding, and deleting customers, products, and orders.
